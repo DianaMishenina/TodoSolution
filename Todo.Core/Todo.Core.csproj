@@ -14,8 +14,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Include=".github\workflows\ci.yml" />
-	  <None Include=".github\workflows\publish-package.yml" />
+	  <Compile Remove=".github\**" />
+	  <EmbeddedResource Remove=".github\**" />
+	  <None Remove=".github\**" />
 	</ItemGroup>
 
 </Project>
