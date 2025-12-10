@@ -13,4 +13,8 @@
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <None Include=".github\workflows\ci.yml" />
+	</ItemGroup>
+
 </Project>
