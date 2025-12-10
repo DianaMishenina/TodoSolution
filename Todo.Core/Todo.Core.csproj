@@ -15,6 +15,7 @@
 
 	<ItemGroup>
 	  <None Include=".github\workflows\ci.yml" />
+	  <None Include=".github\workflows\publish-package.yml" />
 	</ItemGroup>
 
 </Project>
